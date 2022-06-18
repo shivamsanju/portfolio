@@ -23,8 +23,8 @@ function Projects() {
               imgPath={dsa}
               isBlog={false}
               title='Leetcode Problems'
-              description='Web application for practicing Leetcode Problems with integrated IDE, built using React, Express and PostgreSQL for database and deployed on Netlify'
-              link='https://leetcodeproblems.netlify.app/'
+              description='Web application for practicing Leetcode Problems with integrated IDE, built using React, Express and PostgreSQL for database and deployed on Vercel'
+              link='https://leetcodeproblems.vercel.app/'
             />
           </Col>
 
