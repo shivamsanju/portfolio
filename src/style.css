@@ -155,8 +155,8 @@ button:focus {
 }
 
 .logo {
-  height: 2em !important;
-  width: 2em !important;
+  height: 3em !important;
+  width: 3em !important;
 }
 
 .navbar-nav .nav-link {
@@ -188,7 +188,7 @@ button:focus {
 }
 
 .navbar-nav .nav-item a::after {
-  content: "";
+  content: '';
   position: relative;
   display: block;
   height: 5px;
@@ -364,7 +364,7 @@ button:focus {
 }
 
 .home-social-icons::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -682,7 +682,7 @@ button:focus {
 }
 
 .resume .resume-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 16px;
   height: 16px;
