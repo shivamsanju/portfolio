@@ -7,20 +7,7 @@ function Footer() {
   return (
     <Container fluid className='footer'>
       <Row>
-        <Col md='6' className='footer-copywright'>
-          <h3>
-            Design credits :{'      '}
-            <a
-              href='https://github.com/soumyajit4419'
-              style={{ color: 'white' }}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Soumyajit Behara
-            </a>
-          </h3>
-        </Col>
-        <Col md='6' className='footer-body'>
+        <Col md='12' className='footer-body'>
           <ul className='footer-icons'>
             <li className='social-icons'>
               <a

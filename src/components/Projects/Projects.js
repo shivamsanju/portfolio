@@ -24,7 +24,7 @@ function Projects() {
               imgPath={nx}
               isBlog={false}
               title='@shvmsnju/nx'
-              description='This package is an extension for the next-auth package and can be integrated with existing next-auth based projects with minimal configuration. It uses in memory caching to store the session key and user information and this session key gets refreshed at every interval(mentioned by the user) and thus only one session key will be valid at one time across all the clients.'
+              description='This package extends next-auth for easy integration into existing projects, using in-memory caching for session keys and user data. Session keys auto-refresh at user-defined intervals, allowing only one valid key across all clients.'
               link='https://www.npmjs.com/package/@shvmsnju/nx'
             />
           </Col>
@@ -32,8 +32,8 @@ function Projects() {
             <ProjectCard
               imgPath={dsa}
               isBlog={false}
-              title='Leetcode Problems'
-              description='Web application for practicing Leetcode Problems with integrated IDE, built using React, Express and PostgreSQL for database and deployed on Vercel'
+              title='Online Coding Website'
+              description='A web application designed for the purpose of coding practice, incorporating an integrated IDE, built using React for the front end, Express for the back end, and PostgreSQL as the database management system, with deployment on the Vercel platform.'
               link='https://leetcodeproblems.vercel.app/'
             />
           </Col>

@@ -3,15 +3,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import logo from '../Assets/logo.png';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-import { CgGitFork } from 'react-icons/cg';
 import { ImBlog } from 'react-icons/im';
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineGithub
 } from 'react-icons/ai';
 
 import { CgFileDocument } from 'react-icons/cg';
@@ -62,16 +59,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to='/about'
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: '2px' }} /> About
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
                 to='/project'
                 onClick={() => updateExpanded(false)}
               >
@@ -102,16 +89,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className='fork-btn'>
-              <Button
+            <Nav.Item>
+              <Nav.Link
                 href='https://github.com/shivamsanju'
                 target='_blank'
-                className='fork-btn-inner'
+                rel='noreferrer'
               >
-                <CgGitFork style={{ fontSize: '1.2em' }} />{' '}
-                <AiFillStar style={{ fontSize: '1.1em' }} />
-              </Button>
+                <AiOutlineGithub style={{ marginBottom: '2px' }} /> GitHub
+              </Nav.Link>
             </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
